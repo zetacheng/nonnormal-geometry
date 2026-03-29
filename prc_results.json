@@ -1,0 +1,1826 @@
+[
+  {
+    "group": "A",
+    "group_name": "Standard",
+    "seed": 42,
+    "param_count": 272474,
+    "best_test_acc": 0.9216,
+    "final_test_acc": 0.9209,
+    "final_train_acc": 0.98998,
+    "final_ece": 0.035122747462987935,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.040409108771085736,
+        "train_acc": 0.98998,
+        "test_loss": 0.2672829924583435,
+        "test_acc": 0.9209,
+        "ece": 0.035122747462987935,
+        "lr": 0.0,
+        "time": 23.746695041656494,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 1,
+            "henrici": 0.00025245497818104923,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 4,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 5,
+            "henrici": 0.00025283265858888626,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 8,
+            "henrici": 0.00024607180966995656,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 1,
+          "henrici": 0.00025245497818104923,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 4,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 5,
+          "henrici": 0.00025283265858888626,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 8,
+          "henrici": 0.00024607180966995656,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "group": "B",
+    "group_name": "PRC(b>=0)",
+    "seed": 42,
+    "param_count": 284840,
+    "best_test_acc": 0.9312,
+    "final_test_acc": 0.9312,
+    "final_train_acc": 0.98998,
+    "final_ece": 0.025769842028617877,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.036900334101319314,
+        "train_acc": 0.98998,
+        "test_loss": 0.23490266265869142,
+        "test_acc": 0.9312,
+        "ece": 0.025769842028617877,
+        "lr": 0.0,
+        "time": 29.313687801361084,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5832034945487976,
+            "beta": 0.5107779502868652
+          },
+          {
+            "block": 1,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5718644261360168,
+            "beta": 0.5108747482299805
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6256095170974731,
+            "beta": 0.5198187828063965
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6293516755104065,
+            "beta": 0.4890706241130829
+          },
+          {
+            "block": 4,
+            "henrici": 0.00032978426315821707,
+            "curvature": 0.0,
+            "alpha": 0.5882681012153625,
+            "beta": 0.5001007318496704
+          },
+          {
+            "block": 5,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5961693525314331,
+            "beta": 0.506844162940979
+          },
+          {
+            "block": 6,
+            "henrici": 0.0003044158511329442,
+            "curvature": 0.0,
+            "alpha": 0.8392018675804138,
+            "beta": 0.501595139503479
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.7292168140411377,
+            "beta": 0.6577706933021545
+          },
+          {
+            "block": 8,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.9886279702186584,
+            "beta": 0.5000609755516052
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5832034945487976,
+          "beta": 0.5107779502868652
+        },
+        {
+          "block": 1,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5718644261360168,
+          "beta": 0.5108747482299805
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6256095170974731,
+          "beta": 0.5198187828063965
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6293516755104065,
+          "beta": 0.4890706241130829
+        },
+        {
+          "block": 4,
+          "henrici": 0.00032978426315821707,
+          "curvature": 0.0,
+          "alpha": 0.5882681012153625,
+          "beta": 0.5001007318496704
+        },
+        {
+          "block": 5,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5961693525314331,
+          "beta": 0.506844162940979
+        },
+        {
+          "block": 6,
+          "henrici": 0.0003044158511329442,
+          "curvature": 0.0,
+          "alpha": 0.8392018675804138,
+          "beta": 0.501595139503479
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.7292168140411377,
+          "beta": 0.6577706933021545
+        },
+        {
+          "block": 8,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.9886279702186584,
+          "beta": 0.5000609755516052
+        }
+      ]
+    }
+  },
+  {
+    "group": "C",
+    "group_name": "PRC(full)",
+    "seed": 42,
+    "param_count": 284840,
+    "best_test_acc": 0.9243,
+    "final_test_acc": 0.9233,
+    "final_train_acc": 0.99044,
+    "final_ece": 0.030269192798435717,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.03663372214555741,
+        "train_acc": 0.99044,
+        "test_loss": 0.24958870763778687,
+        "test_acc": 0.9233,
+        "ece": 0.030269192798435717,
+        "lr": 0.0,
+        "time": 29.39486265182495,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5498221516609192,
+            "beta": 0.1905350536108017
+          },
+          {
+            "block": 1,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6435571908950806,
+            "beta": -4.873155921814032e-05
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6179348826408386,
+            "beta": 0.10103758424520493
+          },
+          {
+            "block": 3,
+            "henrici": 0.0003136646992061287,
+            "curvature": 0.0,
+            "alpha": 0.6479407548904419,
+            "beta": -0.3023846745491028
+          },
+          {
+            "block": 4,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5993189811706543,
+            "beta": 1.1269043170614168e-05
+          },
+          {
+            "block": 5,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6124321222305298,
+            "beta": -0.01312289573252201
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.8330972790718079,
+            "beta": 0.04566936939954758
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.8100953102111816,
+            "beta": 0.7091564536094666
+          },
+          {
+            "block": 8,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.9904326796531677,
+            "beta": -1.9959243218181655e-06
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5498221516609192,
+          "beta": 0.1905350536108017
+        },
+        {
+          "block": 1,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6435571908950806,
+          "beta": -4.873155921814032e-05
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6179348826408386,
+          "beta": 0.10103758424520493
+        },
+        {
+          "block": 3,
+          "henrici": 0.0003136646992061287,
+          "curvature": 0.0,
+          "alpha": 0.6479407548904419,
+          "beta": -0.3023846745491028
+        },
+        {
+          "block": 4,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5993189811706543,
+          "beta": 1.1269043170614168e-05
+        },
+        {
+          "block": 5,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6124321222305298,
+          "beta": -0.01312289573252201
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.8330972790718079,
+          "beta": 0.04566936939954758
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.8100953102111816,
+          "beta": 0.7091564536094666
+        },
+        {
+          "block": 8,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.9904326796531677,
+          "beta": -1.9959243218181655e-06
+        }
+      ]
+    }
+  },
+  {
+    "group": "D",
+    "group_name": "ForcedNormal",
+    "seed": 42,
+    "param_count": 272474,
+    "best_test_acc": 0.8914,
+    "final_test_acc": 0.8914,
+    "final_train_acc": 0.958,
+    "final_ece": 0.03493400619328024,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.12780874319076538,
+        "train_acc": 0.958,
+        "test_loss": 0.3464555862426758,
+        "test_acc": 0.8914,
+        "ece": 0.03493400619328024,
+        "lr": 0.0,
+        "time": 23.846887350082397,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0002782611991278827,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 1,
+            "henrici": 0.0002959466364700347,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 4,
+            "henrici": 0.00030144263291731477,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 5,
+            "henrici": 0.0003110581892542541,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 8,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0002782611991278827,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 1,
+          "henrici": 0.0002959466364700347,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 4,
+          "henrici": 0.00030144263291731477,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 5,
+          "henrici": 0.0003110581892542541,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 8,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "group": "A",
+    "group_name": "Standard",
+    "seed": 123,
+    "param_count": 272474,
+    "best_test_acc": 0.9256,
+    "final_test_acc": 0.9242,
+    "final_train_acc": 0.98922,
+    "final_ece": 0.032476442754268676,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.04069694733142853,
+        "train_acc": 0.98922,
+        "test_loss": 0.26095911378860476,
+        "test_acc": 0.9242,
+        "ece": 0.032476442754268676,
+        "lr": 0.0,
+        "time": 23.435957431793213,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 1,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 2,
+            "henrici": 0.00032972413464449346,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 4,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 5,
+            "henrici": 0.0002655150310602039,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 8,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 1,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 2,
+          "henrici": 0.00032972413464449346,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 4,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 5,
+          "henrici": 0.0002655150310602039,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 8,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "group": "B",
+    "group_name": "PRC(b>=0)",
+    "seed": 123,
+    "param_count": 284840,
+    "best_test_acc": 0.9238,
+    "final_test_acc": 0.923,
+    "final_train_acc": 0.98934,
+    "final_ece": 0.033534439176321006,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.04067395607471466,
+        "train_acc": 0.98934,
+        "test_loss": 0.2613547614097595,
+        "test_acc": 0.923,
+        "ece": 0.033534439176321006,
+        "lr": 0.0,
+        "time": 29.1363685131073,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5396744608879089,
+            "beta": 0.5059776306152344
+          },
+          {
+            "block": 1,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5942757725715637,
+            "beta": 0.5263040065765381
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6138511300086975,
+            "beta": 0.5171112418174744
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6427996158599854,
+            "beta": 0.5919430255889893
+          },
+          {
+            "block": 4,
+            "henrici": 0.00032785150688141584,
+            "curvature": 0.0,
+            "alpha": 0.571234405040741,
+            "beta": 0.5001167058944702
+          },
+          {
+            "block": 5,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5753824710845947,
+            "beta": 0.5078084468841553
+          },
+          {
+            "block": 6,
+            "henrici": 0.0002902952255681157,
+            "curvature": 0.0,
+            "alpha": 0.666354238986969,
+            "beta": 0.5066906213760376
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.8302459120750427,
+            "beta": 0.6847954392433167
+          },
+          {
+            "block": 8,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.9899184107780457,
+            "beta": 0.5000241994857788
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5396744608879089,
+          "beta": 0.5059776306152344
+        },
+        {
+          "block": 1,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5942757725715637,
+          "beta": 0.5263040065765381
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6138511300086975,
+          "beta": 0.5171112418174744
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6427996158599854,
+          "beta": 0.5919430255889893
+        },
+        {
+          "block": 4,
+          "henrici": 0.00032785150688141584,
+          "curvature": 0.0,
+          "alpha": 0.571234405040741,
+          "beta": 0.5001167058944702
+        },
+        {
+          "block": 5,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5753824710845947,
+          "beta": 0.5078084468841553
+        },
+        {
+          "block": 6,
+          "henrici": 0.0002902952255681157,
+          "curvature": 0.0,
+          "alpha": 0.666354238986969,
+          "beta": 0.5066906213760376
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.8302459120750427,
+          "beta": 0.6847954392433167
+        },
+        {
+          "block": 8,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.9899184107780457,
+          "beta": 0.5000241994857788
+        }
+      ]
+    }
+  },
+  {
+    "group": "C",
+    "group_name": "PRC(full)",
+    "seed": 123,
+    "param_count": 284840,
+    "best_test_acc": 0.9215,
+    "final_test_acc": 0.9204,
+    "final_train_acc": 0.98826,
+    "final_ece": 0.034514306810498205,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.043354742157459256,
+        "train_acc": 0.98826,
+        "test_loss": 0.2640357668876648,
+        "test_acc": 0.9204,
+        "ece": 0.034514306810498205,
+        "lr": 0.0,
+        "time": 29.562182426452637,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5414313673973083,
+            "beta": 5.2276503993198276e-05
+          },
+          {
+            "block": 1,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6007663607597351,
+            "beta": -0.1418069452047348
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5974790453910828,
+            "beta": -0.210296168923378
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6805910468101501,
+            "beta": -0.0007641133852303028
+          },
+          {
+            "block": 4,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5752686262130737,
+            "beta": -8.601781155448407e-05
+          },
+          {
+            "block": 5,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5925373435020447,
+            "beta": 0.3905811905860901
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.8250800371170044,
+            "beta": 0.0688825398683548
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.8846461772918701,
+            "beta": 0.7562429904937744
+          },
+          {
+            "block": 8,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.9929171800613403,
+            "beta": -0.002603008644655347
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5414313673973083,
+          "beta": 5.2276503993198276e-05
+        },
+        {
+          "block": 1,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6007663607597351,
+          "beta": -0.1418069452047348
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5974790453910828,
+          "beta": -0.210296168923378
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6805910468101501,
+          "beta": -0.0007641133852303028
+        },
+        {
+          "block": 4,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5752686262130737,
+          "beta": -8.601781155448407e-05
+        },
+        {
+          "block": 5,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5925373435020447,
+          "beta": 0.3905811905860901
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.8250800371170044,
+          "beta": 0.0688825398683548
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.8846461772918701,
+          "beta": 0.7562429904937744
+        },
+        {
+          "block": 8,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.9929171800613403,
+          "beta": -0.002603008644655347
+        }
+      ]
+    }
+  },
+  {
+    "group": "D",
+    "group_name": "ForcedNormal",
+    "seed": 123,
+    "param_count": 272474,
+    "best_test_acc": 0.8953,
+    "final_test_acc": 0.8939,
+    "final_train_acc": 0.9547,
+    "final_ece": 0.034781442350149176,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.13699282578468322,
+        "train_acc": 0.9547,
+        "test_loss": 0.3387040458917618,
+        "test_acc": 0.8939,
+        "ece": 0.034781442350149176,
+        "lr": 0.0,
+        "time": 23.958645820617676,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.00025970369460992515,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 1,
+            "henrici": 0.0003450473304837942,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 4,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 5,
+            "henrici": 0.0002906473819166422,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 8,
+            "henrici": 0.0003679795190691948,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.00025970369460992515,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 1,
+          "henrici": 0.0003450473304837942,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 4,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 5,
+          "henrici": 0.0002906473819166422,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 8,
+          "henrici": 0.0003679795190691948,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "group": "A",
+    "group_name": "Standard",
+    "seed": 456,
+    "param_count": 272474,
+    "best_test_acc": 0.9255,
+    "final_test_acc": 0.9239,
+    "final_train_acc": 0.99104,
+    "final_ece": 0.03306814542114731,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.03637165249586105,
+        "train_acc": 0.99104,
+        "test_loss": 0.2576746262550354,
+        "test_acc": 0.9239,
+        "ece": 0.03306814542114731,
+        "lr": 0.0,
+        "time": 23.555005311965942,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 1,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 4,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 5,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 8,
+            "henrici": 0.00024534191470593214,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 1,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 4,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 5,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 8,
+          "henrici": 0.00024534191470593214,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "group": "B",
+    "group_name": "PRC(b>=0)",
+    "seed": 456,
+    "param_count": 284840,
+    "best_test_acc": 0.9236,
+    "final_test_acc": 0.9233,
+    "final_train_acc": 0.99028,
+    "final_ece": 0.030790474605560343,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.03816805416584015,
+        "train_acc": 0.99028,
+        "test_loss": 0.25096114332675934,
+        "test_acc": 0.9233,
+        "ece": 0.030790474605560343,
+        "lr": 0.0,
+        "time": 29.479854106903076,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0002865044225472957,
+            "curvature": 0.0,
+            "alpha": 0.5649778842926025,
+            "beta": 0.5023410320281982
+          },
+          {
+            "block": 1,
+            "henrici": 0.00025271138292737305,
+            "curvature": 0.0,
+            "alpha": 0.522712230682373,
+            "beta": 0.5089117288589478
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.586650013923645,
+            "beta": 0.5091106295585632
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6589417457580566,
+            "beta": 0.5060290098190308
+          },
+          {
+            "block": 4,
+            "henrici": 0.000331412855302915,
+            "curvature": 0.0,
+            "alpha": 0.588465690612793,
+            "beta": 0.5059558749198914
+          },
+          {
+            "block": 5,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5644173622131348,
+            "beta": 0.5211184620857239
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.8564757704734802,
+            "beta": 0.5026776790618896
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.753581702709198,
+            "beta": 0.6638373136520386
+          },
+          {
+            "block": 8,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.9909330606460571,
+            "beta": 0.500036358833313
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0002865044225472957,
+          "curvature": 0.0,
+          "alpha": 0.5649778842926025,
+          "beta": 0.5023410320281982
+        },
+        {
+          "block": 1,
+          "henrici": 0.00025271138292737305,
+          "curvature": 0.0,
+          "alpha": 0.522712230682373,
+          "beta": 0.5089117288589478
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.586650013923645,
+          "beta": 0.5091106295585632
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6589417457580566,
+          "beta": 0.5060290098190308
+        },
+        {
+          "block": 4,
+          "henrici": 0.000331412855302915,
+          "curvature": 0.0,
+          "alpha": 0.588465690612793,
+          "beta": 0.5059558749198914
+        },
+        {
+          "block": 5,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5644173622131348,
+          "beta": 0.5211184620857239
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.8564757704734802,
+          "beta": 0.5026776790618896
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.753581702709198,
+          "beta": 0.6638373136520386
+        },
+        {
+          "block": 8,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.9909330606460571,
+          "beta": 0.500036358833313
+        }
+      ]
+    }
+  },
+  {
+    "group": "C",
+    "group_name": "PRC(full)",
+    "seed": 456,
+    "param_count": 284840,
+    "best_test_acc": 0.9244,
+    "final_test_acc": 0.9237,
+    "final_train_acc": 0.99132,
+    "final_ece": 0.030854879793524748,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.03627134233117103,
+        "train_acc": 0.99132,
+        "test_loss": 0.2557603861808777,
+        "test_acc": 0.9237,
+        "ece": 0.030854879793524748,
+        "lr": 0.0,
+        "time": 29.2830331325531,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5654470324516296,
+            "beta": 1.9628831068985164e-05
+          },
+          {
+            "block": 1,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.5982286930084229,
+            "beta": -0.11065051704645157
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6377972364425659,
+            "beta": 0.12811678647994995
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6459015607833862,
+            "beta": 0.21422021090984344
+          },
+          {
+            "block": 4,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.588420569896698,
+            "beta": 0.19410866498947144
+          },
+          {
+            "block": 5,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.6265074610710144,
+            "beta": 2.824747934937477e-05
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.8374841213226318,
+            "beta": -0.20449593663215637
+          },
+          {
+            "block": 7,
+            "henrici": 0.0003027549246326089,
+            "curvature": 0.0,
+            "alpha": 0.8375863432884216,
+            "beta": -0.6437543034553528
+          },
+          {
+            "block": 8,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 0.9919314980506897,
+            "beta": 2.5567040211171843e-05
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5654470324516296,
+          "beta": 1.9628831068985164e-05
+        },
+        {
+          "block": 1,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.5982286930084229,
+          "beta": -0.11065051704645157
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6377972364425659,
+          "beta": 0.12811678647994995
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6459015607833862,
+          "beta": 0.21422021090984344
+        },
+        {
+          "block": 4,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.588420569896698,
+          "beta": 0.19410866498947144
+        },
+        {
+          "block": 5,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.6265074610710144,
+          "beta": 2.824747934937477e-05
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.8374841213226318,
+          "beta": -0.20449593663215637
+        },
+        {
+          "block": 7,
+          "henrici": 0.0003027549246326089,
+          "curvature": 0.0,
+          "alpha": 0.8375863432884216,
+          "beta": -0.6437543034553528
+        },
+        {
+          "block": 8,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 0.9919314980506897,
+          "beta": 2.5567040211171843e-05
+        }
+      ]
+    }
+  },
+  {
+    "group": "D",
+    "group_name": "ForcedNormal",
+    "seed": 456,
+    "param_count": 272474,
+    "best_test_acc": 0.8977,
+    "final_test_acc": 0.8969,
+    "final_train_acc": 0.96076,
+    "final_ece": 0.03219586549103262,
+    "history_summary": {
+      "final_epoch": {
+        "epoch": 100,
+        "train_loss": 0.1195149393749237,
+        "train_acc": 0.96076,
+        "test_loss": 0.32216203722953796,
+        "test_acc": 0.8969,
+        "ece": 0.03219586549103262,
+        "lr": 0.0,
+        "time": 23.818096160888672,
+        "curvature_metrics": [
+          {
+            "block": 0,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 1,
+            "henrici": 0.0002845388080459088,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 2,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 3,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 4,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 5,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 6,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 7,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          },
+          {
+            "block": 8,
+            "henrici": 0.0,
+            "curvature": 0.0,
+            "alpha": 1.0,
+            "beta": 0.0
+          }
+        ]
+      },
+      "curvature_at_end": [
+        {
+          "block": 0,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 1,
+          "henrici": 0.0002845388080459088,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 2,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 3,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 4,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 5,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 6,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 7,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        },
+        {
+          "block": 8,
+          "henrici": 0.0,
+          "curvature": 0.0,
+          "alpha": 1.0,
+          "beta": 0.0
+        }
+      ]
+    }
+  }
+]

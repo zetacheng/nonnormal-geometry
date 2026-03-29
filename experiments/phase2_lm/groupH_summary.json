@@ -1,0 +1,35 @@
+{
+  "H_42": {
+    "loss": 3.9204265904426574,
+    "perplexity": 50.42194971268716,
+    "ece": 0.054687604417987895,
+    "conf_on_errors": "0.1813607",
+    "high_conf_error_frac": 0.005997255754436273,
+    "disc_accuracy": 0.7386666666666667,
+    "mean_ns_correct": "0.4902",
+    "mean_ns_incorrect": "0.728",
+    "gate_scale": 4.559367152978666e-05
+  },
+  "H_123": {
+    "loss": 3.921708734035492,
+    "perplexity": 50.48663935429237,
+    "ece": 0.0565903225365807,
+    "conf_on_errors": "0.1804123",
+    "high_conf_error_frac": 0.005533718689788054,
+    "disc_accuracy": 0.7495882352941177,
+    "mean_ns_correct": "0.467",
+    "mean_ns_incorrect": "0.73",
+    "gate_scale": 3.178208498866297e-05
+  },
+  "H_456": {
+    "loss": 3.9219789838790895,
+    "perplexity": 50.50028520449302,
+    "ece": 0.055769528057061,
+    "conf_on_errors": "0.18097542",
+    "high_conf_error_frac": 0.005903751888275735,
+    "disc_accuracy": 0.752921568627451,
+    "mean_ns_correct": "0.4697",
+    "mean_ns_incorrect": "0.738",
+    "gate_scale": 3.611853753682226e-05
+  }
+}

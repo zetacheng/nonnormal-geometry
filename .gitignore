@@ -1,0 +1,29 @@
+# Checkpoints (too large for git)
+experiments/phase2_lm/checkpoints/*.pt
+
+# CIFAR data (downloadable)
+data/
+
+# Old paper versions
+paper_v1[0-6].*
+Paper FINAL*.pdf
+
+# Compiled LaTeX intermediates
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training logs
+*_log.txt
+*_log_*.txt
+nohup.out
